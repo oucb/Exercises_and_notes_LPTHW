@@ -1,0 +1,8 @@
+$def with (name)
+
+$if name:
+    <p align="center" style="color:deepskyblue">I just wanted to say <em style="color: green; font-size: 2em;">$name</em>.</p>
+$else:
+    <em>Hello</em>, world!
+<!--<p><a href="http://localhost:8080/hello">重新加载表单</a></p>-->
+<p align="center" ><input type="submit" value="重新提交" style="color:red;" onclick="window.history.back()"></p>
